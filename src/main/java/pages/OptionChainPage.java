@@ -161,7 +161,7 @@ public class OptionChainPage extends PageObject {
 	             String SQL = "SELECT TOP 10 * FROM dbo.NiftyOptionsAnalysis;";
 	             ResultSet rs = stmt.executeQuery(SQL);
 	             while (rs.next()) {
-	                 System.out.println(rs.getString("Name"));
+	                 System.out.println(rs.getString("NiftyStrikePrice"));
 	             }
 	         } catch (SQLException e) {
 	             e.printStackTrace();
