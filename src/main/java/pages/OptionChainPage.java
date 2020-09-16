@@ -22,6 +22,7 @@ public class OptionChainPage extends PageObject {
 
 	@FindBy(id = "octable")
 	WebElementFacade optionchaintbl;
+	
 
 	@FindBy(xpath = "//*[@id=\"niftyDiv\"]/p[2]/font/nobr")
 	WebElementFacade niftyvalue;
